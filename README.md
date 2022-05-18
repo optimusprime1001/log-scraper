@@ -5,10 +5,10 @@ This tool parses log lines in JSON format and asynchronously persists them in DB
 - Uses Spring Async feature
 - Stores data in embedded HSQLDB
 
-## How to build
+## How to build (use maven-3.2.5 or higher)
 ```sh
 mvn clean install
-/path/to/java8/bin/java -jar target/jarname.jar /path/to/the/json/log/file
+/path/to/java8/bin/java -jar target/log-scraper-0.0.1-SNAPSHOT.jar /path/to/the/json/log/file
 ```
 
 ## Sample output
