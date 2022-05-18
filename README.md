@@ -2,7 +2,8 @@
 ## Overview
 This tool parses log lines in JSON format and asynchronously persists them in DB
 - Written in SpringBoot
-- Uses Spring Async feature
+- Uses Spring Async feature for improved throughput
+- Uses task executors under the hood for multi-threaded execution
 - Stores data in embedded HSQLDB
 
 ## How to build (use maven-3.2.5 or higher)
